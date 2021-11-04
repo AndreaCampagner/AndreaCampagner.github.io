@@ -6,6 +6,8 @@ main:
     url: /publications/
   - title: "CV"
     url: /cv/
+  - title: "Awards & Events"
+    url: /events/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
