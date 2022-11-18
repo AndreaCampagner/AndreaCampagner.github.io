@@ -8,6 +8,8 @@ main:
     url: /cv/
   - title: "Awards & Events"
     url: /events/
+  - title: "Projects"
+    url: /projects/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

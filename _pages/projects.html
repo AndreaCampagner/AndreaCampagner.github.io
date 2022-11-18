@@ -6,3 +6,40 @@ author_profile: true
 title: "Projects"
 permalink: /projects/
 ---
+<h2 id="covid">scikit-weak</h2>
+scikit-weak is a Python library for weakly supervised learning, compatible with (and based on) scikit-learn.
+I'm the primary developer and mantainer of the library, which also feature contributions by 
+<a href="https://scholar.google.com/citations?user=h521iR4AAAAJ">Julian Lienen</a> from Paderborn University.
+The library is open-source and available on <a href="https://github.com/AndreaCampagner/scikit-weak">GitHub</a> and 
+<a href="https://pypi.org/project/scikit-weak/">PyPi</a>.
+The library currently focuses on learning from imprecise data, self-supervised learning
+and label regularization problems, by providing a framework for management and representation of weakly supervised data,
+state-of-the-art classification algorithms, as well as pre-processing, data management, and evaluation utilities.
+
+
+<h2 id="covid">COVID-19 Blood-ML</h2>
+The aim of this project was to develop diagnostic and prognostic models for COVID-19 disease, based on
+blood test data. The project has led to the collection of multiple datasets from several hospitals and clinics
+around 4 countries (Italy, Spain, Brazil, Ethiopia), which are publicly available (for benchmarking, analysis and model
+development purposes) on Zenodo:
+<ul>
+    <li>
+        <a href="https://zenodo.org/record/4081318#.Y3eYJ-TMK3A">
+            Italian datasets from multiple clinics (IRCCS San Raffaele, IRCCS Istituto Ortopedico Galeazzi), for diagnostic tasks
+        </a>
+    </li>
+    <li>
+        <a href="https://zenodo.org/record/4958146#.Y3eYLOTMK3A">
+            Datasets from international hospitals and clinics (Italy, Brazil, Spain, Ethiopia), for diagnostic tasks
+        </a>
+    </li>
+    <li>
+        <a href="https://zenodo.org/record/4686707#.Y3eYN-TMK3A">
+            Prognostic longitudinal dataset (IRCCS San Raffaele)
+        </a>
+    </li>
+</ul>
+The developed ML diagnostic models have been deployed through freely usable web-tools
+<a href="https://covid19-bloodtests-ml.herokuapp.com/">COVID-19-BLOOD-ML</a> and
+ <a href="https://covid-19-blood-ml.herokuapp.com/">COVID19-BLOODTESTS</a>, or as standalone models on
+ <a href="https://github.com/AndreaCampagner/Development--evaluation--and-validation-of-machine-learning-models-for-COVID-19">GitHub</a>.
